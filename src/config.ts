@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Venkata Sampath Yelchuri",
-  title: "Computer Science Graduate Student | Software Engineering & AI/ML",
+  title: "Computer Science Graduate Student",
   description:
     "MS Computer Science student at the University of Michigan–Flint passionate about building scalable software systems, AI/ML applications, and real-time data pipelines.",
   accentColor: "#2563eb",
