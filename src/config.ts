@@ -1,91 +1,91 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Venkata Sampath Yelchuri",
+  title: "Computer Science Graduate Student | Software Engineering & AI/ML",
+  description:
+    "MS Computer Science student at the University of Michigan–Flint passionate about building scalable software systems, AI/ML applications, and real-time data pipelines.",
+  accentColor: "#2563eb",
+
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "yelchuri@umich.edu",
+    linkedin: "https://www.linkedin.com/in/venkata-sampath-yelchuri/",
+    github: "https://github.com/iAmsAm02",
   },
+
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I am a Computer Science graduate student at the University of Michigan–Flint with experience in software engineering, machine learning, and distributed systems. I enjoy building scalable backend systems, real-time streaming pipelines, and AI-powered applications. My interests include machine learning, cloud computing, and intelligent software systems.",
+
+  skills: [
+    "Python",
+    "Java",
+    "C++",
+    "JavaScript",
+    "Machine Learning",
+    "TensorFlow",
+    "PyTorch",
+    "LangChain",
+    "Kafka",
+    "Docker",
+    "AWS",
+    "SQL",
+    "REST APIs",
+  ],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "SentinelStream",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Real-time telemetry pipeline processing thousands of events across microservices using Kafka-compatible streaming and anomaly detection with IsolationForest and adaptive baselines.",
+      link: "https://github.com/iAmsAm02",
+      skills: ["Python", "Kafka", "Docker", "Prometheus"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "RAG-Based Notes Chatbot",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Retrieval-Augmented Generation chatbot built using LangChain, HuggingFace embeddings, FAISS vector search, and Mistral-7B for intelligent document-based question answering.",
+      link: "https://github.com/iAmsAm02",
+      skills: ["Python", "LangChain", "FAISS", "LLMs"],
     },
     {
-      name: "ExtensionKit",
+      name: "SPE Backlog Simulator",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Agile workflow simulator modeling backlog prioritization, sprint planning, cross-team dependencies, and release management for software product engineering workflows.",
+      link: "https://github.com/iAmsAm02/spe-backlog-simulator",
+      skills: ["JavaScript", "HTML", "CSS", "Agile"],
     },
   ],
+
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Infyni",
+      title: "Software Engineering Intern – AI/ML",
+      dateRange: "Jun 2024 - Dec 2024",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Designed and developed a GPT-based NLP system using transformer architecture and deployed it following the full software development lifecycle.",
+        "Collaborated with senior engineers in an agile environment to improve model performance and optimize token efficiency.",
+        "Presented technical progress during weekly standups and translated complex NLP concepts for cross-functional stakeholders.",
+        "Debugged and resolved issues in NLP pipelines to ensure reliable and scalable AI system performance.",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Infyni",
+      title: "Software Engineering Intern – Machine Learning",
+      dateRange: "Nov 2021 - Feb 2022",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Implemented supervised learning algorithms including Decision Trees, KNN, and Logistic Regression in Python using object-oriented design.",
+        "Preprocessed datasets and validated model outputs while collaborating with engineering teams to deliver ML experiments.",
+        "Supported team members by explaining preprocessing techniques and algorithm fundamentals.",
       ],
     },
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "University of Michigan – Flint",
+      degree: "Master of Science in Computer Science",
+      dateRange: "Aug 2024 - May 2026",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Coursework: Machine Learning, Deep Learning, Advanced Software Engineering",
+        "Additional Coursework: Algorithms & Data Structures, Advanced Computer Networks, Database Design",
       ],
     },
   ],
